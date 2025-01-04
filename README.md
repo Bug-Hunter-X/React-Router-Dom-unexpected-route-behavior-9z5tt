@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in React Router Dom v6 where navigating to a non-existent route doesn't trigger an appropriate error handler or display a 404 page.  The solution provides a clear fix for this by adding a catch-all route using the `Route` component with the path `*` to manage undefined routes.
